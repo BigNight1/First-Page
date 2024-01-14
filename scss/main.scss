@@ -101,12 +101,11 @@ body {
 
 footer {
     background: #1b2a4e;
-    min-height: 100px;;
-}
-footer p{
+    padding: 0.5rem 0;
     color:#f3f3f3;
     text-align:center;
 }
+
 #iconos  i {
     font-size: 26px;
     padding: 0 8px;
@@ -173,9 +172,10 @@ footer p{
     }
 
     .icono-wrap{
-        flex-wrap:wrap ;
-        justify-content: center ;
-        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
 }
 
@@ -320,13 +320,6 @@ $fondo_color: rgb(212, 206, 206);
  p{
     font-size: 25px;
     color: $primary-color!important;
- }
- footer{
-    color: #efefef!important;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-    min-height: 70px!important;
  }
 
 //  Funcion 
